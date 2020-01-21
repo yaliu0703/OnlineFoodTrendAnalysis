@@ -1,4 +1,4 @@
-# 
+# Online Food Trend Analysis
 
 **Project description:** 
 
@@ -117,6 +117,17 @@ b. Compared with other words, the likelihood of rice co-occurring with Cauliflow
 The analysis implies that from 2011 to 2015 the times of consumers mentioning rice when they mention Cauliflower has increased a lot and the likelihood of consumers mentioning rice when they mention Cauliflower has also increased. It is possible that people are more interested in cauliflower rice. From words like, love and delicious which appear in cooccurrence matrix, we can tell that people may express positive feelings for cauliflower. We may infer that people like consuming cauliflower more in recent years.
 
 Now let’s adjust gram window to 1 and only calculate context right to the cauliflower:
+
+<img src="https://github.com/yaliu0703/OnlineFoodTrendAnalysis/blob/master/img/result_1L%20window.png?raw=true"/>
+
+<img src="https://github.com/yaliu0703/OnlineFoodTrendAnalysis/blob/master/img/frquency%20of%20cauliflower%20rice.png?raw=true"/>
+
+We can see that overall trend is that cauliflower rice in gaining more and more attention and popularity with time. So as the supermarket, we may stock more cauliflower rice and promote them more to consumers.
+
+
+
+
+
 
 
 
