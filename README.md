@@ -93,7 +93,41 @@ result_2011 <- sort(tcm[target,], decreasing=TRUE)[1:50]
 library(wordcloud)
 wordcloud(names(result_2011), result_2011, max.words=50,colors=brewer.pal(8, "Dark2"))
 ```
-### 2.4 Result visualization
+#### 2.3.1 visualization of 2011
+<img src="https://github.com/yaliu0703/OnlineFoodTrendAnalysis/blob/master/img/result+wordcloud_2011.jpg?raw=true"/>
+
+#### 2.3.2 visualization of 2012
+<img src="https://github.com/yaliu0703/OnlineFoodTrendAnalysis/blob/master/img/result+wordcloud_2012.jpg?raw=true"/>
+
+#### 2.3.3 visualization of 2013
+<img src="https://github.com/yaliu0703/OnlineFoodTrendAnalysis/blob/master/img/result+wordcloud_2013.jpg?raw=true"/>
+
+#### 2.3.4 visualization of 2014
+<img src="https://github.com/yaliu0703/OnlineFoodTrendAnalysis/blob/master/img/result+wordcloud_2014.jpg?raw=true"/>
+
+#### 2.3.3 visualization of 2015
+<img src="https://github.com/yaliu0703/OnlineFoodTrendAnalysis/blob/master/img/result+wordcloud_2015.jpg?raw=true"/>
+
+From results above, we can easily notice that:
+
+a. The number of times Cauliflower and the Rice co-occur within the window is increasing as time goes by.
+
+b. Compared with other words, the likelihood of rice co-occurring with Cauliflower is increasing as time goes by.
+
+The analysis implies that from 2011 to 2015 the times of consumers mentioning rice when they mention Cauliflower has increased a lot and the likelihood of consumers mentioning rice when they mention Cauliflower has also increased. It is possible that people are more interested in cauliflower rice. From words like, love and delicious which appear in cooccurrence matrix, we can tell that people may express positive feelings for cauliflower. We may infer that people like consuming cauliflower more in recent years.
+
+Now let’s adjust gram window to 1 and only calculate context right to the cauliflower:
+
+
+
+
+
+
+
+
+
+
+
 
 
 
